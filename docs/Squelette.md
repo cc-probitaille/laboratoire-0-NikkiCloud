@@ -207,7 +207,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 **RDCU**
 
-![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-NikkiCloud/refs/heads/master/docs/modeles/rdcu-jouer.puml)
+![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-NikkiCloud/master/docs/modeles/rdcu-jouer.puml)
 
 #### Opération: `terminerJeu(nom:String)`
 
