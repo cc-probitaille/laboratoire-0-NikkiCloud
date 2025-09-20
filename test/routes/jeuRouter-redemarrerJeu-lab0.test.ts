@@ -23,7 +23,11 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
 
   it("ne devrait plus y avoir de joueurs après le redémarrage", async() => {
     const response = await request.get('/api/v1/jeu/redemarrerJeu');
-    const joueur = JSON.parse(jeuRoutes.controleurJeu.joueurs);
-    expect(joueur).toEqual([]);
+    //console.log(response.body)
+    const joueurListe = response.body.liste;
+    
+    expect(joueurListe).toEqual([]);
+    expect(response.status).toBe(200);
+    expect(response.headers['content-type']).toMatch(/json/);
   })
 });

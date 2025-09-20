@@ -68,6 +68,10 @@ export class JeuDeDes {
         return JSON.stringify(resultat);
     }
 
+    public redemarrerJeu() {
+        this._joueurs.clear();
+    }
+
     // d'autres méthodes (des RDCU)
     brasser() {
         this._d1.brasser();
