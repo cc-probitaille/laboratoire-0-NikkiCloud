@@ -176,6 +176,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-NikkiCloud/refs/heads/master/docs/modeles/mdd.puml)
 
+
 ### Diagramme de séquence système (DSS)
 
 ![Diagramme de séquence système](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/dss-jouer.puml)
@@ -200,12 +201,13 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 - d1.valeur est devenue un nombre entier aléatoire entre 1 et 6
 - d2.valeur est devenue un nombre entier aléatoire entre 1 et 6
+- d3.valeur est devenue un nombre entier aléatoire entre 1 et 6
 - j.nbLancers a été incrémenté sur une base de correspondance avec nom
-- j.nbLancersGagnés a été incrémenté si la totale de d1.valeur et d2.valeur est égale à 7
+- j.nbLancersGagnés a été incrémenté si le total de d1.valeur, d2.valeur et d3.valeur est inférieur ou égal à 10
 
 **RDCU**
 
-![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/profcfuhrmanets/log210-jeu-de-des-node-express-ts/master/docs/modeles/rdcu-jouer.puml)
+![Diagramme de séquence, jouer](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-NikkiCloud/refs/heads/master/docs/modeles/rdcu-jouer.puml)
 
 #### Opération: `terminerJeu(nom:String)`
 
