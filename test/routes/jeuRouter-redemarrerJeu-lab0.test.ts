@@ -30,4 +30,9 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
     expect(response.status).toBe(200);
     expect(response.headers['content-type']).toMatch(/json/);
   })
+
+  it(`devrait répondre avec une mauvaise demande lorsque le joueur veut jouer après un redémarrage ${testNom2}`, async () => {
+        const response = await request.get('/api/v1/jeu/jouer/' + testNom2);
+        expect(response.status).toBe(404);
+    });
 });

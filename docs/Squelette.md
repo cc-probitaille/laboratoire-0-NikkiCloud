@@ -203,7 +203,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 - d2.valeur est devenue un nombre entier aléatoire entre 1 et 6
 - d3.valeur est devenue un nombre entier aléatoire entre 1 et 6
 - j.nbLancers a été incrémenté sur une base de correspondance avec nom
-- j.nbLancersGagnés a été incrémenté si le total de d1.valeur, d2.valeur et d3.valeur est inférieur ou égal à 10
+- j.nbLancersGagnés a été incrémenté si la totale de d1.valeur, d2.valeur, d3.valeur est plus petite ou égale à 10
 
 **RDCU**
 
