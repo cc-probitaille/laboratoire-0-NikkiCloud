@@ -218,5 +218,4 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 [README.md](../README.md)
 
 ### Diagramme de classes logicielles
-![Diagramme de classes](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/NikkiCloud/laboratoire-0-NikkiCloud/main/docs/modeles/App.puml)
-
+![Diagramme de classes](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-NikkiCloud/refs/heads/master/docs/modeles/App.puml)
